@@ -8,7 +8,6 @@ const abbos = (b) => {
       bush.push(b[i]);
     } else if (b[i] < 0) {
       sum = sum + b[i];
-    
     }
   }
   salom.push(bush.length, sum);
