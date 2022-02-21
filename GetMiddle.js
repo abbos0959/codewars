@@ -12,4 +12,4 @@ const GetMiddle = (s) => {
 
   console.log(s.substring(position, position + soni),s.length/2);
 };
-GetMiddle("yibsnfd");
+GetMiddle("yibsjnfd");
