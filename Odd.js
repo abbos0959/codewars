@@ -1,7 +1,7 @@
-const isPrime = num => {
-    let s = Math.sqrt(num)
-    for(let i = 2 ; i <= s; i++)
-        if(num % i === 0) return false; 
-    return num > 1;
-}
-console.log(isPrime(21));
+const isPrime = (num) => {
+  let bush = [];
+
+  for (let i = 2; i < num; i++) if (num % i === 0) return false;
+  return true;
+};
+console.log(isPrime(11));
