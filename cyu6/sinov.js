@@ -40,3 +40,46 @@
 //     console.log(qale);
 
 // })
+// let abb = {
+//   name: "abbos",
+//   abbosfunc() {
+//  console.log("my name is" , this.name);
+//   },
+// };
+// console.log(abb.abbosfunc());
+
+// let abbos=[1,2,[[3]],4,[[[[5]]]]]
+// let sa=abbos.flat(Infinity).reduce((a,b)=>{return a+b},0)
+// console.log(sa);
+
+// let abbos = {
+//   name: "abbos",
+//   familiya: "g`ulomov",
+//   get fullname() {
+//     return this.name + " " + this.familiya;
+//   },
+//   set fullname(value) {
+//     let sal = value.split(" ");
+//     (this.name = sal[0]),
+//      (this.familiya = sal[1]);
+//   },
+// };
+// abbos.fullname = "salom dunyo";
+// console.log(abbos.fullname);
+
+let salom={
+  // name:"abbos",
+  fullname(){
+     console.log( ` salom uka ${this.name}`)
+  }
+}
+let b={
+  name:"yigit"
+}
+  let abb=  salom.fullname.bind(b)
+console.log(abb());
+
+
+
+
+
